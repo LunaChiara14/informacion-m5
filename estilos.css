@@ -1,3 +1,4 @@
+/* Fuente general */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body{
     line-height: 1.7;
 }
 
+/* Encabezado */
 header{
     background: linear-gradient(135deg, #0f4c81, #2563eb);
     color: white;
@@ -35,6 +37,7 @@ header p{
     opacity: 0.9;
 }
 
+/* Caja de participantes */
 .info-box{
     max-width: 1000px;
     margin: 35px auto;
@@ -54,6 +57,7 @@ header p{
     font-size: 1.05rem;
 }
 
+/* Sección principal */
 #inicio{
     max-width: 1000px;
     margin: 0 auto 40px;
@@ -95,6 +99,7 @@ header p{
     background: #eef5ff;
 }
 
+/* Pie de página */
 footer{
     background: #0f4c81;
     color: white;
@@ -107,6 +112,7 @@ footer p{
     font-size: 0.95rem;
 }
 
+/* Responsive */
 @media (max-width: 768px){
 
     header h1:first-child{
